@@ -1,0 +1,60 @@
+# ==========================================
+# Arquivos de Sistema Operacional (OS)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==========================================
+# Editores e IDEs (VS Code, JetBrains, etc.)
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.project
+.settings/
+.classpath
+nbproject/
+
+# ==========================================
+# Dependências e Builds (Node / Frontend)
+# ==========================================
+node_modules/
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+
+# ==========================================
+# Logs e Arquivos Temporários
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# ==========================================
+# Variáveis de Ambiente e Configurações Locais
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.local

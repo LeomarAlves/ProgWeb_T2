@@ -1,0 +1,126 @@
+/* ==========================================================================
+   TEMA / BIBLIOTECA CSS
+   ========================================================================== */
+
+/* 4. Todo conteúdo da página deve ser apresentado com a mesma fonte, sendo esta Arial */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* 3. Todo conteúdo da página deve ficar a 15px de distância das laterais esquerda e direita */
+body {
+    margin: 15px 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 5. Todo texto da página, esteja em parágrafos (p), células (td), caixas (span, div, etc) 
+      devem ter as linhas com altura de 1.6, aumentando assim o espaçamento padrão */
+p, td, span, div {
+    line-height: 1.6;
+}
+
+/* 1. Todas as tabelas deverão conter: */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.75em; /* 1.e Texto com tamanho em 0.75em */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 1.b Cabeçalho (th) com cor de fundo (a escolher) */
+/* 1.c Cabeçalho com borda inferior solida com 3px e cor a definir (#1a252f) */
+th {
+    background-color: #34495e;
+    color: #ffffff;
+    border-bottom: 3px solid #1a252f;
+    padding: 12px 20px;
+    text-align: left;
+    vertical-align: top; /* 1.f */
+    word-wrap: break-word; /* 1.g */
+    overflow-wrap: break-word;
+}
+
+/* 1.a Padding das células (td) de 20px */
+/* 1.f As células devem ter o alinhamento vertical para parte superior (top) */
+/* 1.g As células devem forçar a quebra palavras (wordwrap) automaticamente */
+/* 1.h As células devem ter seu conteúdo com alinhamento horizontal justificado (justify) */
+td {
+    padding: 20px;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* 1.d Pseudo class das linhas (tr) alterando a cor de fundo para a linha selecionada */
+tbody tr:hover {
+    background-color: #f2f6fa;
+    cursor: pointer;
+}
+
+/* 1.i A última linha da tabela deve ter a borda inferior solida com 1px de espessura e cor a igual à do cabeçalho (item 1.c) */
+table tr:last-child td,
+tbody tr:last-child td {
+    border-bottom: 1px solid #1a252f;
+}
+
+/* 2. Todos os campos (input, textarea, select) deverão conter: */
+/* 2.a Fonte em tamanho 0.85em */
+/* 2.c Padding 5px */
+/* 2.d Devem ter borda sólida com 1px de espessura com cor #555 */
+input, textarea, select {
+    font-family: Arial, sans-serif;
+    font-size: 0.85em;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* 2.b Campo que estiver sendo preenchido deve ter cor de fundo em destaque */
+input:focus, textarea:focus, select:focus {
+    background-color: #fff9c4;
+    outline: none;
+}
+
+/* 2.e Os labels devem estar em negrito */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para botão */
+button {
+    font-family: Arial, sans-serif;
+    font-size: 0.85em;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #555;
+    background-color: #ecf0f1;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #bdc3c7;
+}
+
+/* Borda vermelha para campos que falharem na validação */
+.campo-invalido {
+    border: 1px solid red !important;
+}
+
+/* Lista de mensagens de validação */
+#lista-erros {
+    color: red;
+    padding-left: 20px;
+}
