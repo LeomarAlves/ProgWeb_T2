@@ -37,7 +37,7 @@ th {
     color: #ffffff;
     border-bottom: 3px solid #1a252f;
     padding: 12px 20px;
-    text-align: left;
+    text-align: justify;
     vertical-align: top; /* 1.f */
     word-wrap: break-word; /* 1.g */
     overflow-wrap: break-word;

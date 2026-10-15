@@ -15,42 +15,54 @@
 
     <form id="form-obra">
         <div>
-            <label for="nome">Nome da obra:</label>
-            <input type="text" id="nome" maxlength="100" placeholder="Ex: A Noite Estrelada">
+            <label>
+                Nome da obra:
+                <input type="text" id="nome" maxlength="100" placeholder="Ex: A Noite Estrelada">
+            </label>
         </div>
 
         <div>
-            <label for="autor">Autor:</label>
-            <input type="text" id="autor" maxlength="100" placeholder="Ex: Vincent van Gogh">
+            <label>
+                Autor:
+                <input type="text" id="autor" maxlength="100" placeholder="Ex: Vincent van Gogh">
+            </label>
         </div>
 
         <div>
-            <label for="ano">Ano da obra:</label>
-            <input type="text" id="ano" maxlength="4" placeholder="Ex: 1889">
+            <label>
+                Ano da obra:
+                <input type="text" id="ano" maxlength="4" placeholder="Ex: 1889">
+            </label>
         </div>
 
         <div>
-            <label for="periodo">Período da obra:</label>
-            <select id="periodo">
-                <option value="">Selecione...</option>
-                <option value="d.C">d.C</option>
-                <option value="a.C">a.C</option>
-            </select>
+            <label>
+                Período da obra:
+                <select id="periodo">
+                    <option value="">Selecione...</option>
+                    <option value="d.C">d.C</option>
+                    <option value="a.C">a.C</option>
+                </select>
+            </label>
         </div>
 
         <div>
-            <label for="tipo">Tipo:</label>
-            <select id="tipo">
-                <option value="">Selecione...</option>
-                <option value="quadro">quadro</option>
-                <option value="escultura">escultura</option>
-                <option value="outro">outro</option>
-            </select>
+            <label>
+                Tipo:
+                <select id="tipo">
+                    <option value="">Selecione...</option>
+                    <option value="quadro">quadro</option>
+                    <option value="escultura">escultura</option>
+                    <option value="outro">outro</option>
+                </select>
+            </label>
         </div>
 
         <div>
-            <label for="detalhamento">Detalhamento:</label>
-            <textarea id="detalhamento" rows="4" maxlength="2000" placeholder="Descrição opcional com até 2000 caracteres..."></textarea>
+            <label>
+                Detalhamento:
+                <textarea id="detalhamento" rows="4" maxlength="2000" placeholder="Descrição opcional com até 2000 caracteres..."></textarea>
+            </label>
         </div>
 
         <button type="button" onclick="salvarObra()">Salvar</button>
